@@ -1,7 +1,6 @@
 <script>
     import ResumeEntry from "./ResumeEntry.svelte";
     import A from "./A.svelte";
-    import PortfolioQr from "./PortfolioQr.svelte";
 </script>
 <ResumeEntry title={'UI Developer - Staples'} startDate={'Aug 2022'} endDate={'Nov 2023'}>
     <li>Worked on the HTML and CSS of Black Friday and Back to School landing pages</li>
@@ -28,6 +27,6 @@
 </ResumeEntry>
 <ResumeEntry title={'Student - The Internet'} startDate={'Sep 1999'} endDate={'Forever'}>
     <li>Constantly combing the internet to learn</li>
-    <li>See my evaluations of relevant UI/UX resources <A url={'https://i.ytimg.com/vi/YKV9ZIJSyDc/maxresdefault.jpg'}>here</A></li>
+    <li>See my evaluations of relevant UI/UX resources <A url={'https://chasea.notion.site/chasea/092c819a1f5443b6ad4df4a1c671786f?v=f24323e74328418d87d05faf3f91699f'}>here</A></li>
     <li>See what I've learned in action on my <A url={'https://i.ytimg.com/vi/YKV9ZIJSyDc/maxresdefault.jpg'}>portfolio</A></li>
 </ResumeEntry>

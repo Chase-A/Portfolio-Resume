@@ -54,7 +54,7 @@
             font-size: 16px;
         }
     }
-    @media (min-width: 650px){
+    @media (min-width: 750px){
         .header-container {
             max-height: 160px;
             margin-left: 44px;
@@ -78,6 +78,11 @@
             flex-direction: column;
             gap: 8px;
             text-align: right;
+        }
+    }
+    @media print {
+        .header-container {
+            margin-left: 0;
         }
     }
 </style>

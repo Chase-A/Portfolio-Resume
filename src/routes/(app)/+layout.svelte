@@ -1,7 +1,7 @@
 <script>
-    import "../app.css"
-    import Header from "../lib/components/Header.svelte";
-    import Navbar from "../lib/components/Navbar.svelte";
+    import "../../app.css"
+    import Header from "../../lib/components/Header.svelte";
+    import Navbar from "../../lib/components/Navbar.svelte";
 </script>
 
 <Header />
@@ -13,7 +13,7 @@
 </div>
 
 <style>
-    @media (min-width: 700px){
+    @media (min-width: 750px){
         .body-container {
             display: flex;
         }
