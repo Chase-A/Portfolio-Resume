@@ -54,7 +54,7 @@
             font-size: 16px;
         }
     }
-    @media (min-width: 750px){
+    @media only screen and (min-width: 750px){
         .header-container {
             max-height: 160px;
             margin-left: 44px;
@@ -80,9 +80,30 @@
             text-align: right;
         }
     }
-    @media print {
+    @media only print and (min-width: 650px){
         .header-container {
-            margin-left: 0;
+            max-height: 160px;
+            margin-left: 0px;
+        }
+        .headshot {
+            max-width: 100px;
+        }
+        .text-container {
+            flex-direction: row;
+            align-items: center;
+            margin-left: 16px;
+        }
+        .text-container .left {
+            margin-bottom: 9px;
+        }
+        .name {
+            margin-bottom: 14px;
+        }
+        .contact {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            text-align: right;
         }
     }
 </style>
