@@ -28,5 +28,5 @@
 <ResumeEntry title={'Student - The Internet'} startDate={'Sep 1999'} endDate={'Forever'}>
     <li>Constantly combing the internet to learn</li>
     <li>See my evaluations of relevant UI/UX resources <A url={'https://chasea.notion.site/chasea/092c819a1f5443b6ad4df4a1c671786f?v=f24323e74328418d87d05faf3f91699f'}>here</A></li>
-    <li>See what I've learned in action on my <A url={'https://i.ytimg.com/vi/YKV9ZIJSyDc/maxresdefault.jpg'}>portfolio</A></li>
+    <li>See what I've learned in action on my <A url={'/'} newTab={false}>portfolio</A></li>
 </ResumeEntry>

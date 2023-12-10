@@ -1,8 +1,13 @@
 <script>
     export let url;
+    export let newTab = true;
 </script>
 
-<a href="{url}" target="_blank" rel="noopener noreferrer"><slot /></a>
+{#if newTab}
+    <a href="{url}" target="_blank" rel="noopener noreferrer"><slot /></a>
+{:else}
+    <a href="{url}"><slot /></a>
+{/if}
 
 <style>
     a {

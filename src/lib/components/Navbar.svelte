@@ -30,10 +30,10 @@
         background: #000;
         color: #fff;
     }
-    .highlighted {
+    /* .highlighted {
         background: #000;
         color: #fff;
-    }
+    } */
     @media (min-width:750px){
         .nav-container {
             flex-direction: column;
