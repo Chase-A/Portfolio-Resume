@@ -7,7 +7,7 @@
 <div class="content-container">
     <Header />
     <Resume />
-    <PortfolioCta />
+    <!-- <PortfolioCta /> -->
 </div>
 
 
